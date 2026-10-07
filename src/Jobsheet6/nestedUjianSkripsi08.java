@@ -20,7 +20,7 @@ public class nestedUjianSkripsi08 {
             if (bimbinganP1 >= 9 && bimbinganP2 >= 5) {
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
             } else if (bimbinganP1 < 9 && bimbinganP2 < 5) {
-                pesan = "Gagal! Log bimbingan P1 kurang dari 8 kali dan P2 kurang dari 4 kali";
+                pesan = "Gagal! Log bimbingan P1 kurang dari 9 kali dan P2 kurang dari 5 kali";
             } else if (bimbinganP1 < 9 ) {
                 pesan = "Gagal! Log bimbingan P1 belum mencapai 9 kali";
             } else {
